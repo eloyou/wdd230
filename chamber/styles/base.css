@@ -1,0 +1,340 @@
+:root {
+    --primary-font: "Lilita One";
+    --secondary-font: "Outfit";
+    --primary-color: #0D92F4;
+    --secondary-color: #F95454;
+    --accent1: #EEEEEE;
+    --accent2: #1D1616;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--secondary-font);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+.logo-text {
+    text-align: center;
+}
+.logo-text h2 {
+    font-family: var(--primary-font);
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+.logo-text h2 span {
+    display: block;
+    font-size: 1rem;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+
+.nav-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 5rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    z-index: 100;
+    
+
+}
+.nav-links li {
+    display: none;
+    width: 40%;
+    font-size: 2rem;
+    margin-bottom: 12px;
+    color: var(--accent1);
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.nav-links a {
+    color: var(--accent1);
+}
+
+
+.nav-links li:hover {
+    margin-left: 30px;
+}
+
+.nav-button {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav-button::before {
+    content: "☰";
+    font-size: 2rem;
+    color: var(--accent1);
+}
+
+.open li {
+    display: block;
+}
+
+.nav-button.open::before {
+    content: "x";
+    font-size: 2rem;
+    color: var(--accent1);
+    padding: 7px;
+
+}
+
+.hero-img {
+    margin-top: -15px;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.callout {
+   
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.callout button {
+    font-size: 2rem;
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+}
+
+.callout button:hover {
+    background-color: var(--primary-color);
+    border: 3px solid var(--accent1);
+}
+
+.callout p {
+    font-size: 2rem;
+    color: var(--accent1);
+}
+
+.callout h2 {
+    font-size: 4rem;
+    font-family: var(--primary-font);
+    color: var(--accent1);
+    text-shadow: 2px 10px 2px var(--primary-color);
+
+}
+
+.callout span {
+    display: inline-block;
+    font-size: 5rem;
+    color: var(--accent1);
+    border-bottom: 5px dotted var(--primary-color);
+    text-shadow: 2px 10px 2px var(--secondary-color);
+}
+
+.card {
+    border: 6px double var(--accent2);
+    padding: 20px;
+    margin: 1rem;
+}
+
+.card-title {
+    font-size: 3rem;
+    margin-top: -10px;
+    text-decoration: underline;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+.event {
+    background-color: var(--accent1);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.event h3 {
+    font-size: 1.5rem;
+    margin-top: -5px;
+    
+}
+
+.event p {
+    font-size: 1.3;
+    text-indent: 2rem;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: -20px;
+    
+}
+.weather-icon {
+
+
+    width: 80px;
+    justify-self: flex-end;
+    align-self: center;
+
+}
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    justify-self: flex-start;
+    align-self: center;
+    margin-top: -10px;
+}
+.weather-info h2 {
+    font-size: 2rem;
+}
+
+.weather-info p {
+    font-size: 1.5rem;
+    margin-top: -30px;
+    
+}
+
+.weather2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather2 p {
+    margin-left: -40px;
+}
+.weather2 span {
+   margin-left: 1rem;
+}
+
+.weather2 p:last-of-type {
+    margin-top: -10px;
+}
+
+.bg-blue {
+    background-color: var(--primary-color);
+}
+
+.bg-red {
+    background-color: var(--secondary-color);
+}
+
+.color-red {
+    color:var(--secondary-color)
+}
+
+.color-white {
+    color: var(--accent1);
+}
+
+.spots {
+    background-color: var(--accent1);
+    width: 13rem;
+    color: var(--accent2);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.emoji {
+    display: block;
+    margin-top: -15px;
+}
+
+.spots-name {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.spots-desc {
+    text-align: center;
+}
+
+.spots-info {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.spots-info a {
+    color: var(--secondary-color);
+}
+
+.spotlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: -20px;
+}
+
+footer {
+    border-top: 5px dotted var(--accent2);
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+.logo {
+    width: 200px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-left: 2px solid var(--accent2);
+    margin-left: 20px;
+}
+
+.info {
+    text-align: center;
+}
+
+

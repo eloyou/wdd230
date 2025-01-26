@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Del Gallego website for chamber of commerce which will serve as a catalist for better commutiny and commerce in the town.">
+    <meta name="author" content="Angelo Caringal">
+    <meta property="og:title"content="Del Gallego Chamber of Commerce">
+    <meta property="og:type"content="article">
+    <meta property="image"content="https://raw.githubusercontent.com/eloyou/wdd230/refs/heads/main/chamber/images/killbay_bridge.webp">
+    <meta property="url"content="https://eloyou.github.io/chamber/">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" >
+    <title>Del Gallego Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo-text">
+                <h2>Del Gallego <span>Chamber of Commerce</span></h2>
+            </div>
+            <div class="nav">
+                <div class="nav-button"></div>
+                
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Discovery</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                            
+                    </ul>
+                </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-img">
+                <picture>
+                    <source media="(min-width: 600px)" srcset="images/killbay_bridge-large.webp">
+                    <img src="images/killbay_bridge-small.webp" alt="killbay bridge">
+                </picture>
+            </div>
+            <div class="callout">
+                <h2>Welcome to <span>Del Gallego</span></h2>
+                <button>Subscribe</button>
+                <p>to our Newsletter!</p>
+            </div>
+        </div>
+        <div class="container">
+            <section class="card bg-blue">
+                <h2 class="card-title color-white">Events</h2>
+                <div class="event">
+                    <h3>Foundation Day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illo consequuntur distinctio minus aspernatur a sequi, magni hic, aut obcaecati voluptates, officia est. Perspiciatis modi expedita, facilis autem eius fugit.</p>
+                    <a href="#">more info...</a>
+                </div>
+            </section>
+            <section class="card">
+                <h2 class="card-title ">Weather</h2>
+                <div class="weather">
+                    <div class="weather-icon">
+                        <img src="images/sun.svg" alt="sunny">
+                    </div>
+                    <div class="weather-info">
+                        <h2>40&deg;</h2>
+                        <p>Sunny</p>
+                    </div>
+                </div>
+                <div class="weather2">
+                    <p>Humidity: <span>30%</span></p>
+                    <p>Windchill: <span>N/A</span></p>
+                </div>
+                
+            </section>
+            <section class="card bg-red ">
+                <h2 class="card-title color-white">Member Spotlights</h2>
+                <div class="spotlights">
+                    <div class="spots">
+                        <h2 class="spots-name"><span class="emoji">👨‍🍳</span>Buluan Catering</h2>
+                        <p class="spots-desc">"Always serve the best food you will never forget" </p>
+                        <div class="spots-info">
+                            <a href="#">+639-4566-5678</a>
+                            <a href="#">service@buluan.com</a>
+                            <a href="#">buluan.com</a>
+                            
+                        </div>
+                    </div>
+                    <div class="spots">
+                        <h2 class="spots-name"><span class="emoji">🎂</span>Goldilocks</h2>
+                        <p class="spots-desc">"The best cakes ever!"</p>
+                        <div class="spots-info">
+                            <a href="#">+639-4366-5678</a>
+                            <a href="#">service@goldilocks.com</a>
+                            <a href="#">goldilocks.com</a>
+                            
+                        </div>
+                    </div>
+                    <div class="spots">
+                        <h2 class="spots-name"><span class="emoji">📚</span>St. Francis</h2>
+                        <p class="spots-desc"> "We provide best and quality school supplies!"</p>
+                        <div class="spots-info">
+                            <a href="#">+639-2566-5678</a>
+                            <a href="#">service@stfrancis.com</a>
+                            <a href="#">stfrancis.com</a>
+                            
+                        </div>
+                    </div>
+    
+                </div>
+                
+            </section>
+            
+        </div>
+       
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="images/bridge-icon.svg" alt="bridge">
+            </div>
+            <div class="address">
+                <p>Del Gallego Camarines Sur, Philippines</p>
+                <a href="#">commerce.delgallego.org</a>
+                <a href="#">+639263060742</a>
+            </div>
+        </div>
+        <div class="info">
+            <p>&copy;<span class="year"></span> - Del Gallego Chamber of Commerce</p>
+            <p>created by: Angelo Caringal</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modefied: <span class="currentDate"></span></p>
+            
+        </div>
+       
+    </footer>
+
+    
+
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/getDates.js" defer></script>
+</body>
+</html>
