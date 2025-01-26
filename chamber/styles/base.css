@@ -44,12 +44,12 @@ img {
 .logo-text {
     text-align: center;
 }
-.logo-text h2 {
+.logo-text h1 {
     font-family: var(--primary-font);
     font-size: 2.5rem;
     color: var(--primary-color);
 }
-.logo-text h2 span {
+.logo-text h1 span {
     display: block;
     font-size: 1rem;
     font-family: var(--secondary-font);
