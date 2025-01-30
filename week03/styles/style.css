@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 4rem;
+    background-color: black;
+    color: white;
+}
+
+img {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    animation: fade 15s;
+    background: black;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
