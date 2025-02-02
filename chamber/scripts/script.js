@@ -22,9 +22,11 @@ if (getDate){
 
     if (getDate != dateToday) {
         visits.textContent = "You last visited " + differenceInDays + " days ago"
+    } else {
+        visits.textContent = "Back so soon! Awesome!";
     }
 
-    visits.textContent = "Back so soon! Awesome!";
+   
     
 
 } else {
