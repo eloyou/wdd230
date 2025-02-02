@@ -337,4 +337,93 @@ footer {
     text-align: center;
 }
 
+.discover-container {
+    display: grid;
+    grid-template-columns: 1;
+
+}
+
+
+.sidebar {
+    background-color: var(--accent1);
+    margin: 1rem;
+    border: 2px solid var(--accent2);
+}
+.sidebar h2 {
+    
+    text-align: center;
+    color: var(--accent1);
+    padding: 10px;
+    margin-top: -1px;
+}
+
+.sidebar:first-child ul {
+
+    padding: 1rem;
+
+}
+
+.sidebar:first-child ul li {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+
+.sidebar:first-child ul li span {
+    font-family: var(--primary-font);
+}
+
+
+.bg-black {
+    background-color: var(--accent2);
+}
+
+.attraction {
+    margin: 20px;
+}
+
+.attraction h3 {
+    font-family: var(--primary-font);
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+.attraction img {
+    border-radius: 20px;
+}
+
+.sidebar:last-of-type p {
+
+    text-align: center;
+    padding: 20px;
+
+}
+
+.local-photos {
+    display: flex;
+    overflow: scroll;
+
+}
+
+.local-photos img {
+    box-shadow: 0 0 30px var(--secondary-color);
+}
+.local-photos img:hover {
+    rotate: .03turn;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 1px;
+
+}
+
+.visits-info {
+    font-size: 2rem;
+}
+
+
+
+
+
+
 

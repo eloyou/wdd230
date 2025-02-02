@@ -102,6 +102,20 @@
         
     }
 
+    .discover-container {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .local-photos {
+        margin: 20px;
+    }
+
+    .local-photos img {
+        width: 500px;
+        height: 800px;
+    }
+
+
 
 
     
