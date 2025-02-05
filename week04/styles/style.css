@@ -1,0 +1,40 @@
+table {
+    width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: thin solid black;
+    border-collapse: collapse;
+    margin: 5rem auto;
+    
+}
+
+th , tr, td{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 7px 15px;
+	border: 1px solid black;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(228, 219, 219);
+}
+
+th[scope="colgroup"] {
+    background-color: black;
+    color: white;
+}
+
+th[scope="col"] {
+    background-color: grey;
+    color: white;
+}
+
+.blank {
+    background-color: #000000;
+}
+
+
+

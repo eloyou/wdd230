@@ -89,6 +89,7 @@ main h1 {
     text-align: center;
     border-bottom: 2px solid black;
     margin: 0 auto;
+    color: #FBA518;
 }
 
 .card {
@@ -110,6 +111,7 @@ main h1 {
 
 .card li {
     list-style: none;
+    color: #5f0f40;
 }
 
 .card:first-of-type li a {
@@ -186,6 +188,7 @@ footer p {
 
     text-align: center;
     margin-top: 3rem;
+    color: #5f0f40;
     
 }
 
