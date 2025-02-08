@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Del Gallego website for chamber of commerce which will serve as a catalist for better commutiny and commerce in the town.">
+    <meta name="author" content="Angelo Caringal">
+    <meta property="og:title" content="Del Gallego Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://raw.githubusercontent.com/eloyou/wdd230/refs/heads/main/chamber/images/killbay_bridge-large.webp">
+    <meta property="og:url" content="https://eloyou.github.io/wdd230/chamber/">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" >
+    <title>Join Del Gallego Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo-text">
+                <h1>Del Gallego <span>Chamber of Commerce</span></h1>
+            </div>
+            <div class="nav">
+                <div class="nav-button"></div>
+                
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discovery</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                            
+                    </ul>
+                </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="join">
+            <form action="thankyou.html" method="get">
+                <label for="firstname">Firstname:</label>
+                <input type="text" required name="firstname" id="firstname">
+                <label for="lastname">Lastname:</label>
+                <input type="text" required name="Lastname" id="Lastname">
+                <label for="position">Title or Position:</label>
+                <input type="text" required name="position" id="position" pattern="^[a-zA-Z\s-]{7,}$">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="example@email.com">
+                <label for="number">Mobile Number:</label>
+                <input type="tel" name="mobilenum" id="mobilenum">
+                <label for="membershipLevel">Select Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel" required>
+                    <option value="NP">NP Membership (Non-Profit - No Fee)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+                <label for="description">Business/Organization's Description</label>
+                <textarea name="description" id="description"></textarea>
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+                <button type="submit">Join</button>
+    
+            </form>
+
+
+        </div>
+       
+
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="images/bridge-icon.svg" alt="bridge">
+            </div>
+            <div class="address">
+                <p>Del Gallego Camarines Sur, Philippines</p>
+                <a href="#">commerce.delgallego.org</a>
+                <a href="#">+639263060742</a>
+            </div>
+        </div>
+        <div class="info">
+            <p>&copy;<span class="year"></span> - Del Gallego Chamber of Commerce</p>
+            <p>created by: Angelo Caringal</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modified: <span class="currentDate"></span></p>
+            
+        </div>
+       
+    </footer>
+
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/getDates.js" defer></script>
+</body>
+</html>

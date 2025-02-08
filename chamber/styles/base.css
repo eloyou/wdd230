@@ -421,6 +421,56 @@ footer {
     font-size: 2rem;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    max-width: 600px;
+
+}
+
+input, select {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+textarea {
+    resize: none;
+    height: 10rem;
+    padding: 1rem;
+    
+    
+}
+
+button {
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
+label {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+
+.thanks {
+    background-color: var(--primary-color);
+    color: var(--accent1);
+    width: 70%;
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.thanks h2 {
+    font-size: 3rem;
+    
+}
+
 
 
 

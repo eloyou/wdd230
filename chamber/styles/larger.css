@@ -19,6 +19,19 @@
     .callout p {
         font-size: 1.5rem;
     }
+
+    .join {
+        display: flex;
+        justify-content: center;
+    }
+
+    .join form {
+        width: 1000px;
+    }
+
+
+
+
 }
 
 @media only screen and (min-width: 800px) {
@@ -114,6 +127,8 @@
         width: 500px;
         height: 800px;
     }
+
+
 
 
 
