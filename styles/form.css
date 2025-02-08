@@ -1,0 +1,57 @@
+:root {
+    --color-warning: rgb(247, 116, 116);
+    --size-button: 2rem;
+    --padding-block: 1rem;
+
+}
+
+input, label {
+    display: block;
+    width: 100%;
+    padding: var(--padding-block);
+}
+
+button {
+    font-size: var(--size-button);
+    padding: var(--padding-block);
+    width: 100%;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: -10px;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+#message {
+    display: none;
+	margin: 10px;
+	padding: 0.5rem;
+	color: red;
+}
+
+#rangevalue {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.success {
+    background-color: rgb(61, 208, 208);
+    color: black;
+    max-width: 80%;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.success h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.success p {
+    font-size: 2rem;
+}

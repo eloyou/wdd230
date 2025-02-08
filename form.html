@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="WDD 230 - Web Frontend Development | Angelo Caringal | Course Assignment Portal">
+    <meta name="description" content="Form Building">
     <meta name="author" content="Angelo Caringal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Angelo Caringal - WDD 230 - Web Frontend Development">
@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
 
-    <title>Angelo Caringal - WDD 230 - Web Frontend Development</title>
+    <title>Form Building</title>
 </head>
 <body>
 
@@ -33,48 +34,37 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="week01/chamber-site-plan.html">Chamber</a></li>
             <li><a href="week02/design.html">Site Plan</a></li>
-            <li><a href="form.html">Form</a></li>
+            <li><a href="#">Form</a></li>
         </ul>
     </nav>
 
-    <div class="hero">
-        <picture>
-            <source srcset="images/hero-small.webp" media="(max-width: 400px)" loading="lazy">
-            <source srcset="images/hero-large.webp" media="(max-width: 960px)" loading="lazy">
-            <img src="images/hero-default.webp" alt="Bacolod temple" width="800" height="400" loading="lazy">
-        </picture>
-        <h2>Bacolod Philippine Temple</h2>
-    </div>
+    
     
     <main>
-        <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card">
-            <h2>Learning Activities</h2>
-            <ul>
-                <li>Week 01: <a href="week01/chamber-site-plan.html">Chamber site plan</a></li>
-                <li>Week 02: <a href="week02/design.html">Design Principle</a></li>
-                <li>Week 03:<a href="week03/images/landscape.webp">WebP</a></li>
-                <li>Week 04:<a href="week04/tablebuild.html">Tables build</a></li>
-                <li>Week 05:<a href="#"></a></li>
-            </ul>
-        </section>
-        <section class="card info">
-            <h2>Information</h2>
-            <p>Visits count: <span class="visits"></span></p>
-        </section>
-        
-        <section class="card map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d768.4469010270224!2d122.59695939641753!3d13.921579996713774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sph!4v1738328255272!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+        <form action="record.html" method="get">
+            <label for="username">Username</label>
+            <input type="text" required id="username" name="username">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required pattern="^[a-zA-Z0-9]{8,}$">
+            <label for="repeatPassword">Repeat Password</label>
+            <div id="message"></div>
+            <input type="password" name="repeatPassword" id="repeatPassword" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title=""Please enter a valid email address"">
+            <label for="Page Rating">Page Rating:</label>
+            <div id="rangevalue">0</div>
+            <input type="range" name="rating" id="rating" min="0" max="10" value="0" step="1">
+            <button type="submit">Submit</button>
     </main>
     <footer>
         <p>&copy;<span class="year"></span> &#128515; Angelo Caringal &#128507; Philippines </p>
         <p>Last Modfied: <span class="currentDate"></span></p>
     </footer>
         
-        
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    
     
     
 </body>
