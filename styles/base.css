@@ -112,6 +112,7 @@ main h1 {
 .card li {
     list-style: none;
     color: #5f0f40;
+
 }
 
 .card:first-of-type li a {
@@ -119,6 +120,7 @@ main h1 {
     font-size: 1rem;
     margin-left: 30px;
     text-decoration: underline;
+    text-align: center;
 }
 
 footer {
@@ -191,4 +193,18 @@ footer p {
     color: #5f0f40;
     
 }
+#weather p{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#weather img{
 
+    width: 50px;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+    
+}
