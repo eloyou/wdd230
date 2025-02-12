@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(211, 175, 245);
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(137, 25, 25);
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 192, 75);
+    margin: 1rem;
+}
+
+section img {
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 4rem;
+    color: wheat;
+    height: 30vh;
+    margin-bottom: -3rem;
+}
+
+h2 {
+    padding: 1rem;
+}
