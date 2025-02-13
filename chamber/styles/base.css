@@ -471,6 +471,50 @@ label {
     
 }
 
+.directory-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   
+}
+
+.directory-wrapper div {
+    
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid var(--accent2);
+
+}
+
+.directory-wrapper div:hover {
+    box-shadow: 3px 5px 14px var(--primary-color);
+    
+}
+
+.directory-wrapper h2, .directory-wrapper p {
+    text-align: center;
+    
+}
+
+.directory-wrapper p {
+    line-height: 1.8rem
+}
+
+.directory-wrapper img {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1.2rem;
+}
+
+.directory-wrapper a {
+    margin-bottom: 20px;
+}
+
 
 
 
