@@ -1,0 +1,74 @@
+{
+    "companies" : [
+        {
+            "name" : "Tech Innovations Inc.",
+            "address" : "432 Silicon Valley Road, Suite 500, San Francisco, CA 94105",
+            "phone" : "(415) 555-9876",
+            "website" : "www.techinnovations.com",
+            "image" : "https://techinnovations.com/wp-content/uploads/2021/09/cropped-TI_logo-e1632418080367.png",
+            "membership" : "Gold",
+            "info" : "Leading provider of cutting-edge software solutions for small businesses. Specializing in AI and cloud computing technologies."
+
+        },
+        {
+            "name" : "Green Earth Solutions",
+            "address" : "89 Eco Way, Denver, CO 80202",
+            "phone" : "(303) 555-1234",
+            "website" : "www.greenearthsolutions.com",
+            "image" : "https://scontent.fmnl33-2.fna.fbcdn.net/v/t39.30808-6/310308609_183914647499816_2091558395013607504_n.png?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=7n-JkQiy9goQ7kNvgHcYKMk&_nc_oc=Adg8ngH2jeApwJBOr2zMy2dgdq4El5zSvsXru6yiE8sufBgEBkJldKXozAwA2EOqw38&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&_nc_gid=A7Rpm3OH_tGWLyESv7020I0&oh=00_AYBlouCB55zzcN0L1_5ruXe4Z3z3vlWH4yVwFpW0PTDWJA&oe=67B395EE",
+            "membership" : "Platinum",
+            "info" : "A top-tier environmental consultancy focused on sustainable practices and renewable energy projects."
+
+        },
+        {
+            "name" : "Urban Design Architects",
+            "address" : "215 Skyline Avenue, New York, NY 10001",
+            "phone" : "(212) 555-2468",
+            "website" : "www.urbandesignarch.com",
+            "image" : "https://scontent.fmnl33-2.fna.fbcdn.net/v/t39.30808-6/294040602_480336024093030_6611231665369490517_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=E9le3oSa3x4Q7kNvgHu-dWG&_nc_oc=AdjpygQXymfz0w9hov1lOs1DL4FGV5wNPGXbAH1M7UNjPs_WQR9Tpp0wxICa2dvm3V8&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&_nc_gid=AmketE37aSokHIycRhHmQ8m&oh=00_AYCRUpB3RjwvoDhUX83r4m_Rp2Qh4kx8IqpXUm-4X_lJdw&oe=67B38A87",
+            "membership" : "Silver",
+            "info" : "Architectural firm specializing in modern, sustainable urban designs. Known for their work in city revitalization projects."
+
+        },
+        {
+            "name" : "Oceanic Ventures Ltd.",
+            "address" : "77 Marina Plaza, Miami, FL 33132",
+            "phone" : "(305) 555-4567",
+            "website" : "www.oceanicventures.com",
+            "image" : "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/305402942_462532259251379_3634120301074957254_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=p-CfanQ2UMkQ7kNvgFGmnhC&_nc_oc=AdgLpubVY_5uys4-x3ermHGMY6V1MbKl4TxMIeCX4WhSWaMQJDzrmiJbX8kSda-kyDk&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&_nc_gid=ADbpwv87acOMxd8__8wAj7H&oh=00_AYCXYcONG5-YyqKaXa7179hFhhy9BGrKSXYttpbV9fas9Q&oe=67B39808",
+            "membership" : "Bronze",
+            "info" : "Focused on marine tourism and luxury yacht charters in the Caribbean and Mediterranean regions."
+
+        },
+        {
+            "name" : "Quantum Health Corp.",
+            "address" : "124 MedTech Blvd, Boston, MA 02110",
+            "phone" : "(617) 555-6789",
+            "website" : "www.quantumhealthcorp.com",
+            "image" : "https://images.squarespace-cdn.com/content/v1/6604be4f71d56579d0f3e907/d28a8bc3-dfb2-462e-95fe-33e681ef6daf/Screenshot+2024-07-07+130818.png?format=1500w",
+            "membership" : "Gold",
+            "info" : "A healthcare technology company that develops wearables for monitoring vital signs and improving patient care."
+
+        },
+        {
+            "name" : "SolarBright Technologies",
+            "address" : "153 Sunlight Drive, Los Angeles, CA 90001",
+            "phone" : "(213) 555-7890",
+            "website" : "www.solarbrighttech.com",
+            "image" : "https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/449147274_122105396390369599_3366555989921566549_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ePX1IR7PbkwQ7kNvgFctzcR&_nc_oc=AdgjhXcuzSRAxul_KdKp00lHxPOferDPPP8q-OLYzaxk9FQNnPikXFD5TeSazn7x1WA&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&_nc_gid=AKxDAjHaBOqlVSRX9rhgxwn&oh=00_AYBIDAH2aWzlK4UHzRknmfIeCVpiU2eWCPgUMvccQpWRqw&oe=67B3B638",
+            "membership" : "Gold",
+            "info" : "Specializes in solar panel manufacturing and energy-efficient solutions for residential and commercial buildings."
+
+        },
+        {
+            "name" : "Velocity Motors",
+            "address" : "720 Speedway Blvd, Detroit, MI 48201",
+            "phone" : "(313) 555-3210",
+            "website" : "www.velocitymotors.com",
+            "image" : "https://media.licdn.com/dms/image/v2/C4D0BAQH8NH64n73meA/company-logo_200_200/company-logo_200_200/0/1631336147420?e=2147483647&v=beta&t=QLhhSz94HnBot9NWBtxIi2nJ99QjMrrcG4i9fW4t4qw",
+            "membership" : "Silver",
+            "info" : "A leading manufacturer of electric vehicles, with a focus on high-performance sports cars."
+
+        }
+    ]
+}

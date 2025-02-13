@@ -1,6 +1,0 @@
-lat = 13.916029
-lon = 122.592227
-
-api key = 8e78114a24e190ba0ad4da4458d591e8
-
-https://api.openweathermap.org/data/3.0/onecall?lat=13.91&lon=122.59&exclude=current&appid=8e78114a24e190ba0ad4da4458d591e8
