@@ -19,7 +19,12 @@
     <title>Del Gallego Chamber of Commerce</title>
 </head>
 <body>
+    
     <header>
+        <div class="banner button-close">
+            <p class="invitation">Join us for the Chamber of Commerce Meet & Greet this Wednesday at 7:00 p.m.!</p>
+            <div class="close">x</div>
+        </div>
         <div class="navbar">
             <div class="logo-text">
                 <h1>Del Gallego <span>Chamber of Commerce</span></h1>
@@ -65,56 +70,46 @@
             </section>
             <section class="card">
                 <h2 class="card-title ">Weather</h2>
-                <div class="weather">
-                    <div class="weather-icon">
-                        <img src="images/sun.svg" alt="sunny">
+                <div class="weather-wrapper">
+                    <div class="weather">
+                        <h3>Del Gallego</h3>
+                        <div class="flex">
+                            <div>
+                                <img src="" alt="" class="w-icon">
+                            </div>
+                            <div>
+                                <p class="w-temp"></p>
+                                <p class="w-description"></p>
+                            </div>
+    
+                        </div>
+                        
+                        
                     </div>
-                    <div class="weather-info">
-                        <h2>40&deg;</h2>
-                        <p>Sunny</p>
+                    <div class="forecast">
+                        <h3>3 days Forecast</h3>
+                        <div>
+                            <p class="dayOneForecast day"></p>
+                        </div>
+                        <div>
+                            <p class="dayTwoForecast day"></p>
+                        </div>
+                        <div>
+                            <p class="dayThreeForecast day"></p>
+                        </div>
                     </div>
+
                 </div>
-                <div class="weather2">
-                    <p>Humidity: <span>30%</span></p>
-                    <p>Windchill: <span>N/A</span></p>
-                </div>
+                
+                
                 
             </section>
             <section class="card bg-red ">
                 <h2 class="card-title color-white">Member Spotlights</h2>
-                <div class="spotlights">
-                    <div class="spots">
-                        <h2 class="spots-name"><span class="emoji">👨‍🍳</span>Buluan Catering</h2>
-                        <p class="spots-desc">"Always serve the best food you will never forget" </p>
-                        <div class="spots-info">
-                            <a href="#">+639-4566-5678</a>
-                            <a href="#">service@buluan.com</a>
-                            <a href="#">buluan.com</a>
-                            
-                        </div>
-                    </div>
-                    <div class="spots">
-                        <h2 class="spots-name"><span class="emoji">🎂</span>Goldilocks</h2>
-                        <p class="spots-desc">"The best cakes ever!"</p>
-                        <div class="spots-info">
-                            <a href="#">+639-4366-5678</a>
-                            <a href="#">service@goldilocks.com</a>
-                            <a href="#">goldilocks.com</a>
-                            
-                        </div>
-                    </div>
-                    <div class="spots">
-                        <h2 class="spots-name"><span class="emoji">📚</span>St. Francis</h2>
-                        <p class="spots-desc"> "We provide best and quality school supplies!"</p>
-                        <div class="spots-info">
-                            <a href="#">+639-2566-5678</a>
-                            <a href="#">service@stfrancis.com</a>
-                            <a href="#">stfrancis.com</a>
-                            
-                        </div>
-                    </div>
-    
+                <div class="spot-wrapper">
+
                 </div>
+                
                 
             </section>
             
@@ -146,5 +141,9 @@
 
     <script src="scripts/script.js" defer></script>
     <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spot.js" defer></script>
+    <script src="scripts/banner.js" defer></script>
+
 </body>
 </html>

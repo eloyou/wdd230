@@ -29,6 +29,15 @@
         width: 1000px;
     }
 
+    .spot-wrapper {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .banner p {
+        flex: 2;
+    }
+
 
 
 
@@ -97,11 +106,7 @@
         grid-column: 1/4;
     }
 
-    .spots {
-        width: 30%;
-        margin: 0;
-        box-shadow: 10px 10px 100px rgba(67, 45, 45, 0.2);
-    }
+    
 
     .info {
         display: flex;
@@ -126,6 +131,21 @@
     .local-photos img {
         width: 500px;
         height: 800px;
+    }
+
+    .weather-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .weather .w-icon {
+
+        width: 200px;
+        
+    }
+
+    .weather h3 {
+        font-size: 1.5rem;
     }
 
 

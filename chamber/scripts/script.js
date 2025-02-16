@@ -1,5 +1,9 @@
+
+
 const hamburgerMenu = document.querySelector('.nav-button');
 const navigation = document.querySelector('.nav-links');
+
+
 
 hamburgerMenu.addEventListener('click', () => {
     hamburgerMenu.classList.toggle('open');
@@ -39,6 +43,11 @@ if (getDate){
 const timestamp = document.querySelector('#timestamp');
 
 timestamp.value = new Date().toISOString();
+
+
+
+
+
 
 
 

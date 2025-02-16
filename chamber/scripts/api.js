@@ -1,12 +1,13 @@
 const url = "https://raw.githubusercontent.com/eloyou/wdd230/refs/heads/main/chamber/data/members.json";
 
+
 async function apiFetch() {
     try {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // testing only
-        displayResults(data.companies); 
+        // console.log(data); // testing only
+        return data.companies
       } else {
           throw Error(await response.text());
       }
@@ -15,7 +16,9 @@ async function apiFetch() {
     }
   }
   
-apiFetch();
+apiFetch().then(data => {
+  displayResults(data)
+});
 
 const directory = document.querySelector(".directory-wrapper");
 
@@ -53,3 +56,5 @@ function displayResults(companies) {
 
 
 }
+
+
